@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign Up Form</title>
+  </head>
+  <body>
+    <div class="section A">
+      <div class="ovheader">
+        <div class="overlay">
+          <img class="icon" src="./Assets/odin-lined.png" />
+          <div class="ODIN-Text">ODIN</div>
+        </div>
+      </div>
+    </div>
+    <div class="section B">
+      <div class="Header Text">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up now
+          to get started.
+        </p>
+        <p>You know you want to.</p>
+      </div>
+      <div class="formcontainer">
+        <form class="form">
+          <h2>Let's do this!</h2>
+          <div class="row a">
+            <div class="input-group">
+              <label for="first-name">First Name </label>
+              <input type="text" id="first-name" placeholder="Thor" />
+            </div>
+            <div class="input-group">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" placeholder="Odinson" />
+            </div>
+          </div>
+          <div class="row b">
+            <div class="input-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="thor@asgard.com" />
+            </div>
+            <div class="input-group">
+              <label for="phone-number">Phone number</label>
+              <input
+                type="tel"
+                id="phone-number"
+                placeholder="+1 555 555 5555"
+              />
+            </div>
+          </div>
+          <div class="row c">
+            <div class="input-group">
+              <label for="password">PASSWORD</label>
+              <input type="password" id="password" placeholder="********" />
+            </div>
+            <div class="input-group">
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input
+                type="password"
+                id="confirm-password"
+                placeholder="********"
+              />
+            </div>
+          </div>
+        </form>
+        <div class="formoutput">
+          <button type="submit">Create Account</button>
+          <p class="log-in">Already have an account? <a href="#">Log in</a></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
